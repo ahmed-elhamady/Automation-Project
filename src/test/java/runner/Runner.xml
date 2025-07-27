@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Automation Suite">
+    <test name="Configuration Annotation Test">
+        <classes>
+            <class name="registration.RegistrationTests"/>
+            <class name="login.LoginTests"/>
+            <class name="home.HomeTests"/>
+            <class name="currencies.CurrenciesTests"/>
+            <class name="search.SearchTests"/>
+            <class name="homeSliders.HomeSlidersTests"/>
+            <class name="followUs.FollowUsTests"/>
+            <class name="wishlist.WishlistTests"/>
+        </classes>
+    </test> <!-- Configuration Annotation Test -->
+</suite>
