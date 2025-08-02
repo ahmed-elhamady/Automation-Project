@@ -1,4 +1,4 @@
-package login;
+package tests;
 
 import base.BaseTests;
 import dataProvider.LoginDP;

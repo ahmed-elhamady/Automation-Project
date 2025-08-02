@@ -1,4 +1,4 @@
-package homeSliders;
+package tests;
 
 import base.BaseTests;
 import org.testng.annotations.Test;

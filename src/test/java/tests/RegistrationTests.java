@@ -1,4 +1,4 @@
-package registration;
+package tests;
 
 import base.BaseTests;
 import dataProvider.RegistrationDP;

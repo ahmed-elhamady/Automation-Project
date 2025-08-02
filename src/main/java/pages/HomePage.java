@@ -26,7 +26,6 @@ public class HomePage {
     private By products = By.id("main");
     private By currencyDropdown = By.id("customerCurrency");
     private By search = By.cssSelector("input[id = 'small-searchterms']");
-    private By sliders = By.className("slider-img");
     private By firstSlider = By.xpath("//a/img[@src = 'https://demo.nopcommerce.com/images/thumbs/0000079_banner_1.webp']");
     private By secondSlider = By.xpath("//a/img[@src ='https://demo.nopcommerce.com/images/thumbs/0000080_banner_2.webp']");
 

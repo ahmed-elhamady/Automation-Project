@@ -1,4 +1,4 @@
-package search;
+package tests;
 
 import base.BaseTests;
 import dataProvider.ProductsDP;

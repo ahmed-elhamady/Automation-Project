@@ -3,14 +3,14 @@
 <suite name=" Automation Suite">
     <test name="Configuration Annotation Test">
         <classes>
-            <class name="registration.RegistrationTests"/>
-            <class name="login.LoginTests"/>
-            <class name="home.HomeTests"/>
-            <class name="currencies.CurrenciesTests"/>
-            <class name="search.SearchTests"/>
-            <class name="homeSliders.HomeSlidersTests"/>
-            <class name="followUs.FollowUsTests"/>
-            <class name="wishlist.WishlistTests"/>
+            <class name="tests.RegistrationTests"/>
+            <class name="tests.LoginTests"/>
+            <class name="tests.HomeTests"/>
+            <class name="tests.CurrenciesTests"/>
+            <class name="tests.SearchTests"/>
+            <class name="tests.HomeSlidersTests"/>
+            <class name="tests.FollowUsTests"/>
+            <class name="tests.WishlistTests"/>
         </classes>
     </test> <!-- Configuration Annotation Test -->
 </suite>
