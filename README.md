@@ -1,4 +1,4 @@
-# 🧪 NopCommerce Automation Testing Project
+# NopCommerce Automation Testing Project
 
 This project demonstrates end-to-end automation testing for the [nopCommerce](https://demo.nopcommerce.com/) web application using **Java**, **Selenium WebDriver**, and **TestNG**. It follows best practices including the **Page Object Model (POM)** design pattern, **data-driven testing**, and modular utility handling.
 
@@ -34,18 +34,6 @@ This project demonstrates end-to-end automation testing for the [nopCommerce](ht
 
 ---
 
-## 🙏 Acknowledgment
-
-Special thanks to my instructors at **Route Academy** for their continued support and guidance in learning software testing and automation frameworks.
-
----
-
-## 📷 Screenshots
-
-(Add screenshots here if available — like test execution or structure)
-
----
-
 ## 📌 How to Run
 
 1. Clone the repository  
@@ -54,11 +42,4 @@ Special thanks to my instructors at **Route Academy** for their continued suppor
 4. Update ChromeDriver path (if needed)  
 5. Run `runner.xml` as TestNG Suite
 
----
-
-## 🤝 Connect
-
-Feel free to fork, contribute, or reach out on [LinkedIn](your-linkedin-url)!
-
----
 
