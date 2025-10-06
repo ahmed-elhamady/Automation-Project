@@ -2,32 +2,31 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.Utility;
 
 import java.time.Duration;
-import java.util.List;
 
 public class HomePage {
-    private WebDriver driver;
+    private final WebDriver driver;
     public HomePage(WebDriver driver){
         this.driver = driver;
     }
 
 
     // Locators;
-    private By logo = By.xpath("//img[contains(@alt, 'nopCommerce')]");
-    private By registerLink = By.linkText("Register");
-    private By loginLink = By.linkText("Log in");
-    private By addHTCToWishlist = By.linkText("HTC smartphone");
-    private By products = By.id("main");
-    private By currencyDropdown = By.id("customerCurrency");
-    private By search = By.cssSelector("input[id = 'small-searchterms']");
-    private By firstSlider = By.xpath("//a/img[@src = 'https://demo.nopcommerce.com/images/thumbs/0000079_banner_1.webp']");
-    private By secondSlider = By.xpath("//a/img[@src ='https://demo.nopcommerce.com/images/thumbs/0000080_banner_2.webp']");
+    private final By logo = By.xpath("//img[contains(@alt, 'nopCommerce')]");
+    private final By registerLink = By.linkText("Register");
+    private final By loginLink = By.linkText("Log in");
+    private final By addHTCToWishlist = By.linkText("HTC smartphone");
+    private final By products = By.id("main");
+    private final By currencyDropdown = By.id("customerCurrency");
+    private final By search = By.cssSelector("input[id = 'small-searchterms']");
+    private final By firstSlider = By.xpath("//a/img[@src = 'https://demo.nopcommerce.com/images/thumbs/0000079_banner_1.webp']");
+    private final By secondSlider = By.xpath("//a/img[@src ='https://demo.nopcommerce.com/images/thumbs/0000080_banner_2.webp']");
+
 
     private By getLinks(String linkText){
         return By.linkText(linkText);
